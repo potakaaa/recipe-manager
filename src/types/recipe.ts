@@ -7,4 +7,5 @@ export type Recipe = {
   cookingTime: number
   servings: number
   category: string
+  isCustom?: boolean
 }

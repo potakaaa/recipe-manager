@@ -2,8 +2,17 @@
   {
     "id": 1,
     "title": "Spaghetti Bolognese",
-    "image": "spaghetti-bolognese.jpg",
-    "ingredients": ["spaghetti", "ground beef", "tomato sauce", "garlic", "onion", "olive oil", "salt", "pepper"],
+    "image": "https://imgs.search.brave.com/dm7r_HQftAEriYHlI3eCuLNcxt3wsiDlIaGSi8N0IdY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYy/NTEyODYzMi9waG90/by9tb3N0LWNvbW1v/bi1hbGxlcmd5LWZv/b2Qtc2hvdC1mcm9t/LWFib3ZlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz12YmJr/TlZScEh2LVg0c0lL/SnphSzF5WVJDbXpF/LUNnbnVXRTk4d2xO/X3ZVPQ",
+    "ingredients": [
+      "spaghetti",
+      "ground beef",
+      "tomato sauce",
+      "garlic",
+      "onion",
+      "olive oil",
+      "salt",
+      "pepper"
+    ],
     "instructions": [
       "Boil spaghetti according to package instructions.",
       "Sauté garlic and onion in olive oil.",
@@ -18,8 +27,15 @@
   {
     "id": 2,
     "title": "Chicken Adobo",
-    "image": "chicken-adobo.jpg",
-    "ingredients": ["chicken", "soy sauce", "vinegar", "garlic", "bay leaves", "peppercorns"],
+    "image": "https://imgs.search.brave.com/dm7r_HQftAEriYHlI3eCuLNcxt3wsiDlIaGSi8N0IdY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYy/NTEyODYzMi9waG90/by9tb3N0LWNvbW1v/bi1hbGxlcmd5LWZv/b2Qtc2hvdC1mcm9t/LWFib3ZlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz12YmJr/TlZScEh2LVg0c0lL/SnphSzF5WVJDbXpF/LUNnbnVXRTk4d2xO/X3ZVPQ",
+    "ingredients": [
+      "chicken",
+      "soy sauce",
+      "vinegar",
+      "garlic",
+      "bay leaves",
+      "peppercorns"
+    ],
     "instructions": [
       "Marinate chicken in soy sauce and garlic.",
       "Sauté garlic until fragrant.",
@@ -34,7 +50,7 @@
   {
     "id": 3,
     "title": "Pancakes",
-    "image": "pancakes.jpg",
+    "image": "https://imgs.search.brave.com/dm7r_HQftAEriYHlI3eCuLNcxt3wsiDlIaGSi8N0IdY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYy/NTEyODYzMi9waG90/by9tb3N0LWNvbW1v/bi1hbGxlcmd5LWZv/b2Qtc2hvdC1mcm9t/LWFib3ZlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz12YmJr/TlZScEh2LVg0c0lL/SnphSzF5WVJDbXpF/LUNnbnVXRTk4d2xO/X3ZVPQ",
     "ingredients": ["flour", "milk", "egg", "sugar", "baking powder", "butter"],
     "instructions": [
       "Mix dry ingredients.",
@@ -49,8 +65,14 @@
   {
     "id": 4,
     "title": "Caesar Salad",
-    "image": "caesar-salad.jpg",
-    "ingredients": ["lettuce", "croutons", "parmesan cheese", "chicken", "caesar dressing"],
+    "image": "https://imgs.search.brave.com/dm7r_HQftAEriYHlI3eCuLNcxt3wsiDlIaGSi8N0IdY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYy/NTEyODYzMi9waG90/by9tb3N0LWNvbW1v/bi1hbGxlcmd5LWZv/b2Qtc2hvdC1mcm9t/LWFib3ZlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz12YmJr/TlZScEh2LVg0c0lL/SnphSzF5WVJDbXpF/LUNnbnVXRTk4d2xO/X3ZVPQ",
+    "ingredients": [
+      "lettuce",
+      "croutons",
+      "parmesan cheese",
+      "chicken",
+      "caesar dressing"
+    ],
     "instructions": [
       "Chop lettuce and place in bowl.",
       "Add croutons and chicken.",
@@ -64,8 +86,15 @@
   {
     "id": 5,
     "title": "Beef Tacos",
-    "image": "beef-tacos.jpg",
-    "ingredients": ["taco shells", "ground beef", "lettuce", "tomato", "cheese", "taco seasoning"],
+    "image": "https://imgs.search.brave.com/dm7r_HQftAEriYHlI3eCuLNcxt3wsiDlIaGSi8N0IdY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYy/NTEyODYzMi9waG90/by9tb3N0LWNvbW1v/bi1hbGxlcmd5LWZv/b2Qtc2hvdC1mcm9t/LWFib3ZlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz12YmJr/TlZScEh2LVg0c0lL/SnphSzF5WVJDbXpF/LUNnbnVXRTk4d2xO/X3ZVPQ",
+    "ingredients": [
+      "taco shells",
+      "ground beef",
+      "lettuce",
+      "tomato",
+      "cheese",
+      "taco seasoning"
+    ],
     "instructions": [
       "Cook ground beef with seasoning.",
       "Prepare taco shells.",
@@ -78,8 +107,16 @@
   {
     "id": 6,
     "title": "Fried Rice",
-    "image": "fried-rice.jpg",
-    "ingredients": ["rice", "egg", "carrot", "peas", "soy sauce", "garlic", "oil"],
+    "image": "https://imgs.search.brave.com/dm7r_HQftAEriYHlI3eCuLNcxt3wsiDlIaGSi8N0IdY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYy/NTEyODYzMi9waG90/by9tb3N0LWNvbW1v/bi1hbGxlcmd5LWZv/b2Qtc2hvdC1mcm9t/LWFib3ZlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz12YmJr/TlZScEh2LVg0c0lL/SnphSzF5WVJDbXpF/LUNnbnVXRTk4d2xO/X3ZVPQ",
+    "ingredients": [
+      "rice",
+      "egg",
+      "carrot",
+      "peas",
+      "soy sauce",
+      "garlic",
+      "oil"
+    ],
     "instructions": [
       "Heat oil and sauté garlic.",
       "Add vegetables and cook.",
@@ -93,7 +130,7 @@
   {
     "id": 7,
     "title": "Grilled Cheese Sandwich",
-    "image": "grilled-cheese.jpg",
+    "image": "https://imgs.search.brave.com/dm7r_HQftAEriYHlI3eCuLNcxt3wsiDlIaGSi8N0IdY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYy/NTEyODYzMi9waG90/by9tb3N0LWNvbW1v/bi1hbGxlcmd5LWZv/b2Qtc2hvdC1mcm9t/LWFib3ZlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz12YmJr/TlZScEh2LVg0c0lL/SnphSzF5WVJDbXpF/LUNnbnVXRTk4d2xO/X3ZVPQ",
     "ingredients": ["bread", "cheese", "butter"],
     "instructions": [
       "Butter bread slices.",
@@ -107,8 +144,16 @@
   {
     "id": 8,
     "title": "Chocolate Cake",
-    "image": "chocolate-cake.jpg",
-    "ingredients": ["flour", "cocoa powder", "sugar", "eggs", "milk", "butter", "baking powder"],
+    "image": "https://imgs.search.brave.com/dm7r_HQftAEriYHlI3eCuLNcxt3wsiDlIaGSi8N0IdY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYy/NTEyODYzMi9waG90/by9tb3N0LWNvbW1v/bi1hbGxlcmd5LWZv/b2Qtc2hvdC1mcm9t/LWFib3ZlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz12YmJr/TlZScEh2LVg0c0lL/SnphSzF5WVJDbXpF/LUNnbnVXRTk4d2xO/X3ZVPQ",
+    "ingredients": [
+      "flour",
+      "cocoa powder",
+      "sugar",
+      "eggs",
+      "milk",
+      "butter",
+      "baking powder"
+    ],
     "instructions": [
       "Mix dry ingredients.",
       "Add eggs, milk, and butter.",
@@ -121,7 +166,7 @@
   {
     "id": 9,
     "title": "Omelette",
-    "image": "omelette.jpg",
+    "image": "https://imgs.search.brave.com/dm7r_HQftAEriYHlI3eCuLNcxt3wsiDlIaGSi8N0IdY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYy/NTEyODYzMi9waG90/by9tb3N0LWNvbW1v/bi1hbGxlcmd5LWZv/b2Qtc2hvdC1mcm9t/LWFib3ZlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz12YmJr/TlZScEh2LVg0c0lL/SnphSzF5WVJDbXpF/LUNnbnVXRTk4d2xO/X3ZVPQ",
     "ingredients": ["eggs", "salt", "pepper", "cheese", "onion"],
     "instructions": [
       "Beat eggs with salt and pepper.",
@@ -135,8 +180,15 @@
   {
     "id": 10,
     "title": "Sinigang na Baboy",
-    "image": "sinigang.jpg",
-    "ingredients": ["pork", "tamarind soup base", "water spinach", "radish", "tomato", "onion"],
+    "image": "https://imgs.search.brave.com/dm7r_HQftAEriYHlI3eCuLNcxt3wsiDlIaGSi8N0IdY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYy/NTEyODYzMi9waG90/by9tb3N0LWNvbW1v/bi1hbGxlcmd5LWZv/b2Qtc2hvdC1mcm9t/LWFib3ZlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz12YmJr/TlZScEh2LVg0c0lL/SnphSzF5WVJDbXpF/LUNnbnVXRTk4d2xO/X3ZVPQ",
+    "ingredients": [
+      "pork",
+      "tamarind soup base",
+      "water spinach",
+      "radish",
+      "tomato",
+      "onion"
+    ],
     "instructions": [
       "Boil pork until tender.",
       "Add vegetables.",
@@ -149,8 +201,15 @@
   {
     "id": 11,
     "title": "Burger",
-    "image": "burger.jpg",
-    "ingredients": ["bun", "ground beef", "lettuce", "tomato", "cheese", "sauce"],
+    "image": "https://imgs.search.brave.com/dm7r_HQftAEriYHlI3eCuLNcxt3wsiDlIaGSi8N0IdY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYy/NTEyODYzMi9waG90/by9tb3N0LWNvbW1v/bi1hbGxlcmd5LWZv/b2Qtc2hvdC1mcm9t/LWFib3ZlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz12YmJr/TlZScEh2LVg0c0lL/SnphSzF5WVJDbXpF/LUNnbnVXRTk4d2xO/X3ZVPQ",
+    "ingredients": [
+      "bun",
+      "ground beef",
+      "lettuce",
+      "tomato",
+      "cheese",
+      "sauce"
+    ],
     "instructions": [
       "Form beef patty and cook.",
       "Toast buns.",
@@ -163,7 +222,7 @@
   {
     "id": 12,
     "title": "Smoothie Bowl",
-    "image": "smoothie-bowl.jpg",
+    "image": "https://imgs.search.brave.com/dm7r_HQftAEriYHlI3eCuLNcxt3wsiDlIaGSi8N0IdY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYy/NTEyODYzMi9waG90/by9tb3N0LWNvbW1v/bi1hbGxlcmd5LWZv/b2Qtc2hvdC1mcm9t/LWFib3ZlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz12YmJr/TlZScEh2LVg0c0lL/SnphSzF5WVJDbXpF/LUNnbnVXRTk4d2xO/X3ZVPQ",
     "ingredients": ["banana", "berries", "yogurt", "honey", "granola"],
     "instructions": [
       "Blend fruits and yogurt.",
@@ -177,7 +236,7 @@
   {
     "id": 13,
     "title": "Garlic Butter Shrimp",
-    "image": "garlic-shrimp.jpg",
+    "image": "https://imgs.search.brave.com/dm7r_HQftAEriYHlI3eCuLNcxt3wsiDlIaGSi8N0IdY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYy/NTEyODYzMi9waG90/by9tb3N0LWNvbW1v/bi1hbGxlcmd5LWZv/b2Qtc2hvdC1mcm9t/LWFib3ZlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz12YmJr/TlZScEh2LVg0c0lL/SnphSzF5WVJDbXpF/LUNnbnVXRTk4d2xO/X3ZVPQ",
     "ingredients": ["shrimp", "garlic", "butter", "lemon", "salt", "pepper"],
     "instructions": [
       "Melt butter and sauté garlic.",
@@ -191,7 +250,7 @@
   {
     "id": 14,
     "title": "French Toast",
-    "image": "french-toast.jpg",
+    "image": "https://imgs.search.brave.com/dm7r_HQftAEriYHlI3eCuLNcxt3wsiDlIaGSi8N0IdY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYy/NTEyODYzMi9waG90/by9tb3N0LWNvbW1v/bi1hbGxlcmd5LWZv/b2Qtc2hvdC1mcm9t/LWFib3ZlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz12YmJr/TlZScEh2LVg0c0lL/SnphSzF5WVJDbXpF/LUNnbnVXRTk4d2xO/X3ZVPQ",
     "ingredients": ["bread", "eggs", "milk", "cinnamon", "sugar", "butter"],
     "instructions": [
       "Mix eggs, milk, cinnamon, and sugar.",
@@ -205,8 +264,15 @@
   {
     "id": 15,
     "title": "Vegetable Stir Fry",
-    "image": "stir-fry.jpg",
-    "ingredients": ["broccoli", "carrot", "bell pepper", "soy sauce", "garlic", "oil"],
+    "image": "https://imgs.search.brave.com/dm7r_HQftAEriYHlI3eCuLNcxt3wsiDlIaGSi8N0IdY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTYy/NTEyODYzMi9waG90/by9tb3N0LWNvbW1v/bi1hbGxlcmd5LWZv/b2Qtc2hvdC1mcm9t/LWFib3ZlLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz12YmJr/TlZScEh2LVg0c0lL/SnphSzF5WVJDbXpF/LUNnbnVXRTk4d2xO/X3ZVPQ",
+    "ingredients": [
+      "broccoli",
+      "carrot",
+      "bell pepper",
+      "soy sauce",
+      "garlic",
+      "oil"
+    ],
     "instructions": [
       "Heat oil and sauté garlic.",
       "Add vegetables and stir fry.",
