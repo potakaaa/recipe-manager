@@ -1,0 +1,219 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Bolognese",
+    "image": "spaghetti-bolognese.jpg",
+    "ingredients": ["spaghetti", "ground beef", "tomato sauce", "garlic", "onion", "olive oil", "salt", "pepper"],
+    "instructions": [
+      "Boil spaghetti according to package instructions.",
+      "Sauté garlic and onion in olive oil.",
+      "Add ground beef and cook until brown.",
+      "Pour tomato sauce and simmer for 15 minutes.",
+      "Mix with spaghetti and serve."
+    ],
+    "cookingTime": 30,
+    "servings": 4,
+    "category": "Pasta"
+  },
+  {
+    "id": 2,
+    "title": "Chicken Adobo",
+    "image": "chicken-adobo.jpg",
+    "ingredients": ["chicken", "soy sauce", "vinegar", "garlic", "bay leaves", "peppercorns"],
+    "instructions": [
+      "Marinate chicken in soy sauce and garlic.",
+      "Sauté garlic until fragrant.",
+      "Add chicken and cook until browned.",
+      "Pour vinegar and simmer until tender.",
+      "Add bay leaves and peppercorns."
+    ],
+    "cookingTime": 45,
+    "servings": 4,
+    "category": "Filipino"
+  },
+  {
+    "id": 3,
+    "title": "Pancakes",
+    "image": "pancakes.jpg",
+    "ingredients": ["flour", "milk", "egg", "sugar", "baking powder", "butter"],
+    "instructions": [
+      "Mix dry ingredients.",
+      "Add milk and egg, whisk until smooth.",
+      "Heat pan and add butter.",
+      "Pour batter and cook both sides until golden."
+    ],
+    "cookingTime": 20,
+    "servings": 2,
+    "category": "Breakfast"
+  },
+  {
+    "id": 4,
+    "title": "Caesar Salad",
+    "image": "caesar-salad.jpg",
+    "ingredients": ["lettuce", "croutons", "parmesan cheese", "chicken", "caesar dressing"],
+    "instructions": [
+      "Chop lettuce and place in bowl.",
+      "Add croutons and chicken.",
+      "Sprinkle parmesan cheese.",
+      "Add dressing and toss."
+    ],
+    "cookingTime": 15,
+    "servings": 2,
+    "category": "Salad"
+  },
+  {
+    "id": 5,
+    "title": "Beef Tacos",
+    "image": "beef-tacos.jpg",
+    "ingredients": ["taco shells", "ground beef", "lettuce", "tomato", "cheese", "taco seasoning"],
+    "instructions": [
+      "Cook ground beef with seasoning.",
+      "Prepare taco shells.",
+      "Fill shells with beef, lettuce, tomato, and cheese."
+    ],
+    "cookingTime": 25,
+    "servings": 3,
+    "category": "Mexican"
+  },
+  {
+    "id": 6,
+    "title": "Fried Rice",
+    "image": "fried-rice.jpg",
+    "ingredients": ["rice", "egg", "carrot", "peas", "soy sauce", "garlic", "oil"],
+    "instructions": [
+      "Heat oil and sauté garlic.",
+      "Add vegetables and cook.",
+      "Add rice and soy sauce.",
+      "Push aside and scramble egg, then mix."
+    ],
+    "cookingTime": 20,
+    "servings": 3,
+    "category": "Asian"
+  },
+  {
+    "id": 7,
+    "title": "Grilled Cheese Sandwich",
+    "image": "grilled-cheese.jpg",
+    "ingredients": ["bread", "cheese", "butter"],
+    "instructions": [
+      "Butter bread slices.",
+      "Place cheese between slices.",
+      "Grill until golden brown."
+    ],
+    "cookingTime": 10,
+    "servings": 1,
+    "category": "Snack"
+  },
+  {
+    "id": 8,
+    "title": "Chocolate Cake",
+    "image": "chocolate-cake.jpg",
+    "ingredients": ["flour", "cocoa powder", "sugar", "eggs", "milk", "butter", "baking powder"],
+    "instructions": [
+      "Mix dry ingredients.",
+      "Add eggs, milk, and butter.",
+      "Bake at 180°C for 30–35 minutes."
+    ],
+    "cookingTime": 60,
+    "servings": 8,
+    "category": "Dessert"
+  },
+  {
+    "id": 9,
+    "title": "Omelette",
+    "image": "omelette.jpg",
+    "ingredients": ["eggs", "salt", "pepper", "cheese", "onion"],
+    "instructions": [
+      "Beat eggs with salt and pepper.",
+      "Pour into pan.",
+      "Add fillings and fold."
+    ],
+    "cookingTime": 10,
+    "servings": 1,
+    "category": "Breakfast"
+  },
+  {
+    "id": 10,
+    "title": "Sinigang na Baboy",
+    "image": "sinigang.jpg",
+    "ingredients": ["pork", "tamarind soup base", "water spinach", "radish", "tomato", "onion"],
+    "instructions": [
+      "Boil pork until tender.",
+      "Add vegetables.",
+      "Add tamarind base and simmer."
+    ],
+    "cookingTime": 60,
+    "servings": 5,
+    "category": "Filipino"
+  },
+  {
+    "id": 11,
+    "title": "Burger",
+    "image": "burger.jpg",
+    "ingredients": ["bun", "ground beef", "lettuce", "tomato", "cheese", "sauce"],
+    "instructions": [
+      "Form beef patty and cook.",
+      "Toast buns.",
+      "Assemble burger with toppings."
+    ],
+    "cookingTime": 25,
+    "servings": 2,
+    "category": "Fast Food"
+  },
+  {
+    "id": 12,
+    "title": "Smoothie Bowl",
+    "image": "smoothie-bowl.jpg",
+    "ingredients": ["banana", "berries", "yogurt", "honey", "granola"],
+    "instructions": [
+      "Blend fruits and yogurt.",
+      "Pour into bowl.",
+      "Top with granola and honey."
+    ],
+    "cookingTime": 10,
+    "servings": 1,
+    "category": "Healthy"
+  },
+  {
+    "id": 13,
+    "title": "Garlic Butter Shrimp",
+    "image": "garlic-shrimp.jpg",
+    "ingredients": ["shrimp", "garlic", "butter", "lemon", "salt", "pepper"],
+    "instructions": [
+      "Melt butter and sauté garlic.",
+      "Add shrimp and cook until pink.",
+      "Season and add lemon juice."
+    ],
+    "cookingTime": 15,
+    "servings": 2,
+    "category": "Seafood"
+  },
+  {
+    "id": 14,
+    "title": "French Toast",
+    "image": "french-toast.jpg",
+    "ingredients": ["bread", "eggs", "milk", "cinnamon", "sugar", "butter"],
+    "instructions": [
+      "Mix eggs, milk, cinnamon, and sugar.",
+      "Dip bread in mixture.",
+      "Cook on pan until golden brown."
+    ],
+    "cookingTime": 15,
+    "servings": 2,
+    "category": "Breakfast"
+  },
+  {
+    "id": 15,
+    "title": "Vegetable Stir Fry",
+    "image": "stir-fry.jpg",
+    "ingredients": ["broccoli", "carrot", "bell pepper", "soy sauce", "garlic", "oil"],
+    "instructions": [
+      "Heat oil and sauté garlic.",
+      "Add vegetables and stir fry.",
+      "Add soy sauce and cook briefly."
+    ],
+    "cookingTime": 20,
+    "servings": 3,
+    "category": "Vegetarian"
+  }
+]
