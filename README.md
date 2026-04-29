@@ -16,15 +16,15 @@ A focused, pleasant recipe browser built with **React 19**, **Vite 7**, **TypeSc
 
 ## Tech stack
 
-| Layer        | Choice                          |
-| ------------ | ------------------------------- |
-| Build        | Vite                            |
-| UI           | React 19                        |
-| Styling      | Tailwind CSS v4 (`@tailwindcss/vite`) |
-| Components   | shadcn/ui (Radix primitives)    |
-| Icons        | Phosphor (`@phosphor-icons/react`) |
-| Toasts       | Sonner                          |
-| Theme        | `next-themes`                   |
+| Layer      | Choice                                |
+| ---------- | ------------------------------------- |
+| Build      | Vite                                  |
+| UI         | React 19                              |
+| Styling    | Tailwind CSS v4 (`@tailwindcss/vite`) |
+| Components | shadcn/ui (Radix primitives)          |
+| Icons      | Phosphor (`@phosphor-icons/react`)    |
+| Toasts     | Sonner                                |
+| Theme      | `next-themes`                         |
 
 ---
 
@@ -52,14 +52,14 @@ Then open the URL printed in the terminal (usually `http://localhost:5173`).
 
 ### Other scripts
 
-| Command          | Purpose                    |
-| ---------------- | -------------------------- |
-| `npm run dev`    | Dev server with HMR        |
-| `npm run build`  | Typecheck + production build |
-| `npm run preview`| Serve production build locally |
-| `npm run lint`   | ESLint                     |
-| `npm run format` | Prettier (TS/TSX)          |
-| `npm run typecheck` | `tsc --noEmit`          |
+| Command             | Purpose                        |
+| ------------------- | ------------------------------ |
+| `npm run dev`       | Dev server with HMR            |
+| `npm run build`     | Typecheck + production build   |
+| `npm run preview`   | Serve production build locally |
+| `npm run lint`      | ESLint                         |
+| `npm run format`    | Prettier (TS/TSX)              |
+| `npm run typecheck` | `tsc --noEmit`                 |
 
 ---
 
@@ -111,16 +111,16 @@ npx shadcn@latest add command
 
 These live under **`src/components/ui/`** and are composed in the app:
 
-| Component    | Role |
-| ----------- | ---- |
-| **Button**  | Actions (theme toggle, add recipe, card actions, dialogs). |
-| **Card**    | Recipe cards (`Card`, `CardContent`). |
-| **Command** | Search palette (`Command`, `CommandInput`, `CommandList`, `CommandGroup`, `CommandItem`, `CommandEmpty`). |
-| **Dialog**  | Recipe detail and “create recipe” modals. |
-| **Input**   | Create-recipe form fields. |
-| **Textarea**| Multi-line fields in create flow. |
-| **Tooltip** | Hints on card actions; wrapped in **`TooltipProvider`** in `main.tsx`. |
-| **Input Group** | Used inside the Command implementation for consistent input styling. |
+| Component       | Role                                                                                                      |
+| --------------- | --------------------------------------------------------------------------------------------------------- |
+| **Button**      | Actions (theme toggle, add recipe, card actions, dialogs).                                                |
+| **Card**        | Recipe cards (`Card`, `CardContent`).                                                                     |
+| **Command**     | Search palette (`Command`, `CommandInput`, `CommandList`, `CommandGroup`, `CommandItem`, `CommandEmpty`). |
+| **Dialog**      | Recipe detail and “create recipe” modals.                                                                 |
+| **Input**       | Create-recipe form fields.                                                                                |
+| **Textarea**    | Multi-line fields in create flow.                                                                         |
+| **Tooltip**     | Hints on card actions; wrapped in **`TooltipProvider`** in `main.tsx`.                                    |
+| **Input Group** | Used inside the Command implementation for consistent input styling.                                      |
 
 **Toasts:** the app uses **`sonner`** directly (`toast` helpers and `<Toaster />` in **`main.tsx`**). A conventional shadcn **`sonner`** UI wrapper exists in the codebase if you prefer that import path.
 
@@ -143,21 +143,3 @@ Icons are configured for **Phosphor** via `components.json` (`iconLibrary`).
 This keeps **no backend required**—everything runs in the browser with optional persistence.
 
 ---
-
-## Screenshots *(recommended)*
-
-Add images under **`docs/screenshots/`** (or similar) and link them here—for example:
-
-```markdown
-![Home — recipe grid](./docs/screenshots/home-light.png)
-
-![Dark mode](./docs/screenshots/home-dark.png)
-```
-
-Remove this subsection or replace the placeholders once you have captures.
-
----
-
-## License
-
-Private / your choice—set **`license`** in `package.json` and this section when you publish.
