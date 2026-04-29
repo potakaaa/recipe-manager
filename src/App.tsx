@@ -15,6 +15,7 @@ import type { Recipe } from "./types/recipe"
 import RecipeCard from "./components/RecipeCard"
 import RecipeDialog from "./components/RecipeDialog"
 import CreateDialog from "./components/CreateDialog"
+import { toast } from "sonner"
 
 export function App() {
   const { theme, setTheme } = useTheme()
@@ -30,11 +31,11 @@ export function App() {
 
   const [add, setAdd] = useState(false)
 
-  // localstorage key for custom recipes
   const CUSTOM_RECIPE_KEY = "customRecipes"
 
   const query = search.toLowerCase().trim()
 
+  // title + category only; keeps search predictable for the json shape
   const filtered = recipes.filter((r) => {
     if (!query) return true
     return (
@@ -43,11 +44,13 @@ export function App() {
     )
   })
 
+  // mirror how next-themes resolves "system" so the icon matches actual appearance
   const isDark =
     theme === "dark" ||
     (theme === "system" &&
       window.matchMedia("(prefers-color-scheme: dark)").matches)
 
+  // seed list from bundled json + any saved customs; bad json resets to bundled only
   useEffect(() => {
     try {
       const stored = localStorage.getItem(CUSTOM_RECIPE_KEY)
@@ -63,6 +66,7 @@ export function App() {
     setHasHydratedRecipes(true)
   }, [])
 
+  // ids only — enough for heart state without cloning full recipes
   useEffect(() => {
     try {
       const stored = localStorage.getItem("favoriteRecipeIds")
@@ -72,24 +76,24 @@ export function App() {
     }
   }, [])
 
+  // skip until first load finishes — otherwise we'd persist [] and wipe stored customs
   useEffect(() => {
     if (!hasHydratedRecipes) return
     const customRecipes = recipes.filter((r) => r.isCustom)
     localStorage.setItem(CUSTOM_RECIPE_KEY, JSON.stringify(customRecipes))
   }, [recipes, hasHydratedRecipes])
 
-  // function for adding recipe
   const addRecipe = (newRecipe: Recipe) => {
     setRecipes((prev) => [...prev, { ...newRecipe, isCustom: true }])
     setAdd(false)
   }
 
-  // function for deleting custom recipe
+  // built-in rows share ids across sessions; only strip custom rows by id
   const deleteRecipe = (id: number) => {
     setRecipes((prev) => prev.filter((r) => !(r.id === id && r.isCustom)))
+    toast.error("Recipe deleted")
   }
 
-  // toggling favorited recipes
   const toggleFavorite = (recipe: Recipe) => {
     setFavoriteIds((prev) => {
       const next = prev.includes(recipe.id)
@@ -144,6 +148,7 @@ export function App() {
         <label htmlFor="recipe-search" className="sr-only">
           Search recipes
         </label>
+        {/* we filter manually (filtered above) — cmdk's builtin filter would double-apply */}
         <Command
           shouldFilter={false}
           className="overflow-visible rounded-xl border bg-background shadow-md"

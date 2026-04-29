@@ -1,8 +1,11 @@
 import { Card, CardContent } from "./ui/card"
 import type { Recipe } from "@/types/recipe"
 import { Button } from "./ui/button"
-import { HeartIcon, TrashIcon } from "@phosphor-icons/react"
+import { CopySimpleIcon, HeartIcon, TrashIcon } from "@phosphor-icons/react"
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip"
+import { toast } from "sonner"
+import { copyRecipeAsText } from "@/lib/formatRecipeAsText"
+import { categoryStyles, defaultStyle } from "@/styles/categoryStyles"
 
 type RecipeCardProps = {
   recipe: Recipe
@@ -19,9 +22,20 @@ const RecipeCard = ({
   onToggleFavorite,
   isFavorite,
 }: RecipeCardProps) => {
+  const handleCopy = async (e: React.MouseEvent) => {
+    e.stopPropagation()
+    try {
+      await copyRecipeAsText(recipe)
+      toast.success("Recipe copied to clipboard")
+    } catch {
+      toast.error("Could not copy recipe")
+    }
+  }
+
   return (
     <Tooltip>
       <TooltipTrigger asChild>
+        {/* whole card selects; buttons below call stopPropagation so one click != open + button */}
         <Card
           onClick={() => onSelect(recipe)}
           className="group cursor-pointer overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
@@ -44,8 +58,9 @@ const RecipeCard = ({
             className="visible absolute z-10 bg-foreground hover:scale-110"
           >
             <HeartIcon
+              weight={isFavorite ? "fill" : "regular"}
               className={`h-4 w-4 ${
-                isFavorite ? "fill-red-500 text-red-500" : "text-gray-500"
+                isFavorite ? "text-red-500" : "text-gray-500"
               }`}
             />
           </Button>
@@ -60,24 +75,39 @@ const RecipeCard = ({
             </p>
 
             <div className="mt-3 flex items-center justify-between">
-              <span className="rounded-full bg-muted px-2 py-1 text-xs">
+              <span
+                className={`${categoryStyles[recipe.category] || defaultStyle} rounded-full bg-muted px-2 py-1 text-xs`}
+              >
                 {recipe.category}
               </span>
             </div>
           </CardContent>
 
+          {/* delete/view split only when user-created — seeded recipes can't be removed */}
           {recipe.isCustom ? (
             <div className="mx-3 flex flex-col space-y-2">
-              <Button
-                size="lg"
-                onClick={(e) => {
-                  e.stopPropagation()
-                  onSelect(recipe)
-                }}
-                className=""
-              >
-                View
-              </Button>
+              <div className="flex gap-2">
+                <Button
+                  size="lg"
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    onSelect(recipe)
+                  }}
+                  className="flex-1"
+                >
+                  View
+                </Button>
+                <Button
+                  size="lg"
+                  variant="secondary"
+                  onClick={handleCopy}
+                  className="flex-1 shrink-0 gap-2"
+                  aria-label="Copy recipe as text"
+                >
+                  <CopySimpleIcon className="h-5 w-5" />
+                  Copy
+                </Button>
+              </div>
               <Button
                 size={"lg"}
                 className=""
@@ -92,16 +122,28 @@ const RecipeCard = ({
               </Button>
             </div>
           ) : (
-            <Button
-              size="lg"
-              onClick={(e) => {
-                e.stopPropagation()
-                onSelect(recipe)
-              }}
-              className="mx-3"
-            >
-              View
-            </Button>
+            <div className="mx-3 flex gap-2">
+              <Button
+                size="lg"
+                onClick={(e) => {
+                  e.stopPropagation()
+                  onSelect(recipe)
+                }}
+                className="flex-1"
+              >
+                View
+              </Button>
+              <Button
+                size="lg"
+                variant="secondary"
+                onClick={handleCopy}
+                className="flex-1 shrink-0 gap-2"
+                aria-label="Copy recipe as text"
+              >
+                <CopySimpleIcon className="h-5 w-5" />
+                Copy
+              </Button>
+            </div>
           )}
         </Card>
       </TooltipTrigger>

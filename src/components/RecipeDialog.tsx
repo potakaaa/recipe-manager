@@ -8,6 +8,7 @@ type RecipeDialogProps = {
 }
 
 const RecipeDialog = ({ recipe, open, onOpenChange }: RecipeDialogProps) => {
+  // parent keeps recipe in state; null means nothing to show yet — don't render shell
   if (!recipe) return null
 
   return (
